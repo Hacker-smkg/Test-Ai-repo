@@ -19,4 +19,13 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  /* Premium gradient background */
+  background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 50%, #f1f5f9 100%);
+  background-attachment: fixed;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }

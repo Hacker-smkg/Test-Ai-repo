@@ -7,9 +7,9 @@ function App() {
   const [activeTab, setActiveTab] = useState<'analyzer' | 'dictionary'>('analyzer');
 
   return (
-    <div className="min-h-screen w-full bg-slate-50 text-slate-900 font-sans selection:bg-blue-100">
+    <div className="min-h-screen w-full flex flex-col items-center selection:bg-blue-100">
       {/* Navigation */}
-      <nav className="bg-white border-b border-slate-200 sticky top-0 z-10">
+      <nav className="w-full bg-white border-b border-slate-200 sticky top-0 z-10">
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="bg-blue-600 p-1.5 rounded-lg">
@@ -40,7 +40,7 @@ function App() {
       </nav>
 
       {/* Main Content */}
-      <main className="max-w-5xl mx-auto px-6 py-12">
+      <main className="w-full max-w-5xl mx-auto px-6 py-12">
         <header className="mb-12 text-center">
           <h1 className="text-4xl font-extrabold text-slate-900 mb-4 tracking-tight">
             Handwritten Sentiment Analyzer
@@ -53,7 +53,7 @@ function App() {
         {activeTab === 'analyzer' ? <Analyzer /> : <Dictionary />}
       </main>
 
-      <footer className="max-w-5xl mx-auto px-6 py-12 border-t border-slate-200 text-center text-slate-400 text-sm">
+      <footer className="w-full max-w-5xl mx-auto px-6 py-12 border-t border-slate-200 text-center text-slate-400 text-sm">
         <p>&copy; 2024 SentiOCR Tool • Built with React & FastAPI</p>
       </footer>
     </div>
