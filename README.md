@@ -1,6 +1,6 @@
 # SentiOCR — Advanced Handwritten Sentiment Analysis
 
-**Live Site:** [https://frontend-iyc0xxjb5-hackersmkgs-projects.vercel.app](https://frontend-iyc0xxjb5-hackersmkgs-projects.vercel.app)
+**Live Site:** [https://frontend-p31ck0s0k-hackersmkgs-projects.vercel.app](https://frontend-p31ck0s0k-hackersmkgs-projects.vercel.app)
 
 SentiOCR is a high-performance, full-stack AI platform designed to bridge the gap between physical handwriting and digital emotional intelligence. It leverages OpenCV-enhanced OCR to extract text from handwritten images and applies a weighted fuzzy-matching algorithm against a dynamic SQLite sentiment dictionary to classify emotional tone.
 
