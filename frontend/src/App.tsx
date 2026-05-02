@@ -9,13 +9,13 @@ function App() {
   return (
     <div className="min-h-screen w-full flex flex-col items-center selection:bg-blue-100">
       {/* Navigation */}
-      <nav className="w-full bg-white border-b border-slate-200 sticky top-0 z-10 flex justify-center">
-        <div className="w-full px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="bg-blue-600 p-1.5 rounded-lg">
-              <BrainCircuit className="w-6 h-6 text-white" />
+      <nav className="w-full bg-white border-b border-slate-200 sticky top-0 z-50 flex justify-center">
+        <div className="w-full max-w-5xl px-6 h-16 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="bg-blue-600 p-2 rounded-xl shadow-sm">
+              <BrainCircuit className="w-6 h-6 text-white" strokeWidth={2.5} />
             </div>
-            <span className="text-xl font-bold tracking-tight">SentiOCR</span>
+            <span className="text-2xl font-black tracking-tighter text-slate-900">SentiOCR</span>
           </div>
           
           <div className="flex bg-slate-100 p-1 rounded-xl">
