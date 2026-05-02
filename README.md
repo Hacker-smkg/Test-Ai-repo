@@ -1,5 +1,7 @@
 # SentiOCR — Handwritten Sentiment Analysis Tool
 
+**Live Site:** [https://frontend-djbuv8rh2-hackersmkgs-projects.vercel.app](https://frontend-djbuv8rh2-hackersmkgs-projects.vercel.app)
+
 SentiOCR is a full-stack AI tool that extracts text from handwritten images and performs fuzzy-logic sentiment analysis based on a customizable dictionary.
 
 ## 🚀 Features
