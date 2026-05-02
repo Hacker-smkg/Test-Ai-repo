@@ -15,17 +15,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+html, body {
   margin: 0;
-  min-width: 320px;
+  padding: 0;
+  width: 100%;
   min-height: 100vh;
-  /* Premium gradient background */
-  background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 50%, #f1f5f9 100%);
+  /* More vibrant background to verify it's working */
+  background: linear-gradient(135deg, #f0f4f8 0%, #dbeafe 100%) !important;
   background-attachment: fixed;
 }
 
 #root {
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
+  min-height: 100vh;
 }
