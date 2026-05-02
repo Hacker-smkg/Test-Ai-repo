@@ -1,8 +1,8 @@
-import React, { useState, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
-import { Upload, FileText, Activity, CheckCircle } from 'lucide-react';
+import { Upload, FileText, Activity } from 'lucide-react';
 import api from '../api';
-import { AnalyzeResponse } from '../types';
+import type { AnalyzeResponse } from '../types';
 
 export default function Analyzer() {
   const [file, setFile] = useState<File | null>(null);

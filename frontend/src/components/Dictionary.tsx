@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Plus, Trash2, Book, Tag } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Plus, Trash2, Tag } from 'lucide-react';
 import api from '../api';
-import { Word } from '../types';
+import type { Word } from '../types';
 
 export default function Dictionary() {
   const [words, setWords] = useState<Word[]>([]);
