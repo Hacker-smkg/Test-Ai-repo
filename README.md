@@ -42,9 +42,8 @@ npm run dev
 ### Backend (Render)
 1. Create a **Web Service** on Render.
 2. Set the **Root Directory** to `backend`.
-3. Environment: `Python 3`.
-4. Build Command: `pip install -r requirements.txt`.
-5. Start Command: `uvicorn app:app --host 0.0.0.0 --port $PORT`.
+3. Environment: **Docker** (This is critical to ensure Tesseract OCR is installed).
+4. Render will automatically detect the `Dockerfile` and build the image.
 
 ## 📜 License
 MIT
